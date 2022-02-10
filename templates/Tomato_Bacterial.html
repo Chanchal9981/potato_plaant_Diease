@@ -1,0 +1,135 @@
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="{%static 'Allcss/bacteria.css' %}">
+</head>
+<body>
+<br>
+<br>
+<div class="container">
+	<div class="row">
+		<h4> With the help of A.I solve the diease problem of Agriculture Domain </h4>
+	</div>
+    <hr>
+            <div class="row row-margin-bottom">
+            <div class="col-md-5 no-padding lib-item" data-category="view">
+                <div class="lib-panel">
+                    <div class="row box-shadow">
+                        <div class="col-md-6">
+                            <img class="lib-img-show" src="{{user_img}}">
+                            <p>{{pred}}</p>
+                            <p>Name of this diease is {{pred}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lib-row lib-header">
+
+                                <div class="lib-header-seperator"></div>
+                            </div>
+                            <div class="lib-row lib-desc">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 no-padding lib-item" data-category="ui">
+                <div class="lib-panel">
+                    <div class="row box-shadow">
+                        <div class="col-md-6">
+                            <img class="lib-img" src="{{user_img}}">
+                            <p>{{pred}}</p>
+                            <p>ये बिमारी जब होती हैं जब पौधे को छोटे छोटे जीवाणु खाने लगते हैं</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lib-row lib-header">
+
+                                <div class="lib-header-seperator"></div>
+                            </div>
+                            <div class="lib-row lib-desc">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+<div class="container">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Solutions is provied here which pesticide are usefull of this diease</a>
+    <a class="navbar-brand" href="#">पौधे को इस रोग से बचाने के लिए निचे दी गई दवाईयों क़ा उपगोय करे </a>
+  </nav>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+    <h2 class="text-center">Recommended Products</h2>
+    <br>
+    <br>
+<div class="card-container">
+    <div class="custom-card">
+        <div class="card-img-box">
+            <img src="{%static 'img1/bact1_img.jpg'%}" />
+        </div>
+        <div class="card-content">
+            <h2>Biosterilzer<br><span>300 gm/Acar</span></h2>
+        </div>
+    </div>
+    <div class="custom-card">
+        <div class="card-img-box">
+            <img src="{%static 'img1/bact2_image.jpg'%}" />
+        </div>
+        <div class="card-content">
+            <h2>Veggie<br><span>150 gm/Acar</span></h2>
+        </div>
+    </div>
+    <div class="custom-card">
+        <div class="card-img-box">
+            <img src="{%static 'img1/bact3_image.jpg'%}" />
+
+        </div>
+        <div class="card-content">
+            <h2>Monterey B.T<br><span>250 gm/Acar</span></h2>
+        </div>
+    </div>
+    <div class="custom-card">
+        <div class="card-img-box">
+            <img src="{%static 'img1/bact4_image.jpg'%}" />
+        </div>
+        <div class="card-content">
+            <h2>Safer,caterpillar killer<br><span>150 gm/Acar</span></h2>
+        </div>
+    </div>
+    <div class="custom-card">
+        <div class="card-img-box">
+            <img src="{%static 'img1/bact5_image.jpg'%}" />
+        </div>
+        <div class="card-content">
+            <h2>Biozap,safe food wase<br><span>250 gm/Acar</span></h2>
+        </div>
+    </div>
+    <div class="custom-card">
+        <div class="card-img-box">
+            <img src="{%static 'img1/bact6_image.jpg'%}" />
+        </div>
+        <div class="card-content">
+            <h2>Roundup<br><span>200 gm/Acar</span></h2>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
